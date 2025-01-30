@@ -171,8 +171,8 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
+      title: "Engager ",
+      href: "https://engager.bloorsoft.com",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -199,21 +199,19 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Artefice",
+      href: "https://artefice.ai",
+      dates: "May 2023 - September 2023",
       active: true,
       description:
         "Designed, developed and sold animated UI components for developers.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
+        "React",
+        "JavaScript",
+        "Vite",
+        "Firebase",
+        "Chakra UI",
         "Stripe",
-        "Shadcn UI",
-        "Magic UI",
       ],
       links: [
         {
