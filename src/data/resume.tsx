@@ -2,9 +2,9 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
+  name: "Parsa Tajik",
+  initials: "PT",
+  url: "https://parsatajik.com",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
@@ -35,9 +35,8 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://dub.sh/parsa-github",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
@@ -72,38 +71,38 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Affirm",
+      href: "https://affirm.com",
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
+      location: "San Francisco, CA",
+      title: "Software Engineer",
       logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      start: "Jan 2024",
+      end: "Present",
       description:
         "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
     {
-      company: "Shopify",
+      company: "Bloorsoft",
       badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Engineer",
+      href: "https://bloorsoft.com",
+      location: "Toronto, ON",
+      title: "Founder & CEO",
       logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
+      start: "Jan 2024",
+      end: "Present",
       description:
         "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
     },
     {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
+      company: "Konrad Group",
+      href: "https://konrad.com",
       badges: [],
-      location: "Santa Clara, CA",
+      location: "Toronto, ON",
       title: "Software Engineer",
       logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
+      start: "May 2021",
+      end: "May 2022",
       description:
         "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
     },
@@ -154,28 +153,20 @@ export const DATA = {
       end: "2024",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
+      school: "University of Toronto",
+      href: "https://utoronto.ca",
+      degree: "Bachelor's Degree in Computer Science (BCS)",
       logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
+      start: "2018",
+      end: "2023",
     },
     {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
+      school: "National Organization for Development of Exceptional Talents",
+      href: "https://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents",
+      degree: "NA",
       logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
+      start: "2011",
+      end: "2015",
     },
   ],
   projects: [
