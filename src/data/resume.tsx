@@ -11,7 +11,7 @@ export const DATA = {
     "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
   summary:
     "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.JPG",
   skills: [
     "React",
     "Next.js",
@@ -76,7 +76,7 @@ export const DATA = {
       badges: [],
       location: "San Francisco, CA",
       title: "Software Engineer",
-      logoUrl: "/atomic.png",
+      logoUrl: "/affirm.jpg",
       start: "Jan 2024",
       end: "Present",
       description:
@@ -88,7 +88,7 @@ export const DATA = {
       href: "https://bloorsoft.com",
       location: "Toronto, ON",
       title: "Founder & CEO",
-      logoUrl: "/shopify.svg",
+      logoUrl: "/bloorsoft.png",
       start: "Jan 2024",
       end: "Present",
       description:
@@ -145,26 +145,18 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
-    },
-    {
       school: "University of Toronto",
       href: "https://utoronto.ca",
       degree: "Bachelor's Degree in Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
+      logoUrl: "/uoft.jpg",
       start: "2018",
       end: "2023",
     },
     {
       school: "National Organization for Development of Exceptional Talents",
       href: "https://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents",
-      degree: "NA",
-      logoUrl: "/ib.png",
+      degree: "Middle & High School",
+      logoUrl: "/sampad.png",
       start: "2011",
       end: "2015",
     },
