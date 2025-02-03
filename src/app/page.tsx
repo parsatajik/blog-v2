@@ -15,7 +15,7 @@ export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
-        <div className="mx-auto w-full max-w-2xl space-y-8">
+        <div className="mx-auto w-full max-w-3xl space-y-8">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
               <BlurFadeText
@@ -152,7 +152,47 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="hackathons">
+      <section id="startups">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  Startups
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  I help startups ship 🔥
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  I help startups ship products faster. I've been fortunate to
+                  be a part of a few startups and have learned a lot from the
+                  experience.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 14}>
+            <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
+              {DATA.startups.map((project, id) => (
+                <BlurFade
+                  key={project.title + project.dates}
+                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
+                >
+                  <HackathonCard
+                    title={project.title}
+                    description={project.description}
+                    location={project.location}
+                    dates={project.dates}
+                    image={project.image}
+                    links={project.links}
+                  />
+                </BlurFade>
+              ))}
+            </ul>
+          </BlurFade>
+        </div>
+      </section>
+      {/* <section id="hackathons">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -194,7 +234,7 @@ export default function Page() {
             </ul>
           </BlurFade>
         </div>
-      </section>
+      </section> */}
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
