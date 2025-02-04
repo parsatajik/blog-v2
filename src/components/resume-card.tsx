@@ -6,6 +6,7 @@ import { Card, CardHeader } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { ChevronRightIcon } from "lucide-react";
+import Markdown from "react-markdown";
 import Link from "next/link";
 import React from "react";
 
@@ -18,6 +19,7 @@ interface ResumeCardProps {
   badges?: readonly string[];
   period: string;
   description?: string;
+  needsMarkdown?: boolean;
 }
 export const ResumeCard = ({
   logoUrl,
@@ -28,6 +30,7 @@ export const ResumeCard = ({
   badges,
   period,
   description,
+  needsMarkdown = false,
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
@@ -100,7 +103,13 @@ export const ResumeCard = ({
               }}
               className="mt-2 text-xs sm:text-sm"
             >
-              {description}
+              {needsMarkdown ? (
+                <Markdown className="prose text-black max-w-full text-pretty font-sans text-sm dark:prose-invert dark:text-white">
+                  {description}
+                </Markdown>
+              ) : (
+                description
+              )}
             </motion.div>
           )}
         </div>

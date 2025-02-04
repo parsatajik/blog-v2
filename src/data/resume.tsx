@@ -10,20 +10,22 @@ export const DATA = {
   description:
     "Software engineer and entrepreneur. I love building things and helping people. Trying to be more active on Twitter.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "I started tinkering with BASIC when I was 10 years old. Not gonna lie, I kined sucked at it but it was very intriguing for me. Now, almost 15 years later, I've built a variety of software products, participated in many programming competitions and hackathons, and worked at big tech & startup companies. I even started my own software studio called [Bloorsoft](https://bloorsoft.com) 3 years ago. After all this time, I'm still learning every day... Grinding hard for a better future for myself, my family, and the world.",
   avatarUrl: "/me2.JPG",
   skills: [
     "React",
-    "Next.js",
+    "React Native (hate apple and their random rules)",
+    "Next.js (don't get all the hate for app router)",
     "Typescript",
     "Node.js",
     "Python",
-    "Go",
     "Postgres",
     "Docker",
     "Kubernetes",
-    "Java",
-    "C++",
+    "Terraform + Terragrunt",
+    "C++ (what I used for competitive programming)",
+    "Redis (I've gone pretty deep into caching)",
+    "AWS",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -80,7 +82,8 @@ export const DATA = {
       start: "Jan 2024",
       end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Migrated all of Affirms infrastructure to Redis engine v7.1 and RedisPy v5, directly contributing to availability and performance optimizations across our whole stack.",
+      needsMarkdown: false,
     },
     {
       company: "Bloorsoft",
@@ -92,7 +95,8 @@ export const DATA = {
       start: "Feb 2022",
       end: "Present",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Founded [Bloor Software Inc.](https://bloorsoft.com) a boutique software consulting studio with a focus on web development. Lead and recruited teams of developers and designers in order to satisfy the needs of our clients. Networked and negotiated with various potential customers to speed up Bloorsoft’s growth",
+      needsMarkdown: true,
     },
     {
       company: "Affirm",
@@ -104,7 +108,8 @@ export const DATA = {
       start: "May 2022",
       end: "Sept 2022",
       description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+        "Analyzed the current condition of the dependencies of Affirm’s codebase and researched various tools such as Dependabot and Renovate to automate the process of dependency maintenance. Configured Renovate and created a custom Docker image which was self-hosted on Affirm's BuildKite pipelines to generate automatic dependency update PRs and run post upgrade tasks.",
+      needsMarkdown: false,
     },
     {
       company: "Konrad Group",
@@ -116,7 +121,8 @@ export const DATA = {
       start: "May 2021",
       end: "May 2022",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Developed [Artie](https://www.rbcwealthmanagement.com/en-ca/royal-trust/executor-help), a tool for facilitating executors with estate management. Implemented an internal application for the Royal Bank of Canada to help manage high-value investment clients using Angular, GraphQL, and MongoDB.",
+      needsMarkdown: true,
     },
     {
       company: "TeleVU Innovation",
@@ -128,7 +134,8 @@ export const DATA = {
       start: "Sept 2021",
       end: "March 2022",
       description:
-        "Built a end-to-end web application as the lead developer in a fast-paced startup environment using React, Node, Express, and PostgreSQL",
+        "Built an end-to-end web application as the lead developer in a fast-paced startup environment using React, Node, Express, and PostgreSQL",
+      needsMarkdown: false,
     },
     {
       company: "Hypatia Systems",
@@ -141,6 +148,7 @@ export const DATA = {
       end: "May 2021",
       description:
         "Integrated the Hypatia Mathematical System with the TinyMCE editor through the creation of a plugin to facilitate acquiring mathematical input for writing and solving questions",
+      needsMarkdown: false,
     },
     {
       company: "Medtronic",
@@ -151,7 +159,22 @@ export const DATA = {
       logoUrl: "/medtronic.jpeg",
       start: "June 2020",
       end: "May 2021",
-      description: "",
+      description:
+        "Developed a web application for the Medtronic Diabetes business unit to help manage their sales force. Built a mobile app using React Native and Typescript.",
+      needsMarkdown: false,
+    },
+    {
+      company: "Scotiabank",
+      href: "https://scotiabank.com/",
+      badges: [],
+      location: "Toronto, ON",
+      title: "Junior Software Engineer",
+      logoUrl: "/scotiabank.png",
+      start: "Sept 2019",
+      end: "Dec 2019",
+      description:
+        "Built RequestToPay within the Technology Leadership Initiative program at the University of Toronto under the supervision of Scotiabank. RequestToPay is an android application that is designed to simplify the financial interactions between small businesses and large suppliers.",
+      needsMarkdown: false,
     },
   ],
   education: [
@@ -300,7 +323,7 @@ export const DATA = {
       dates: "Jan 2025 - Feb 2025",
       location: "San Francisco, CA",
       description:
-        "Nexavision is a startup that is building a platform for creating and managing AI agents. I was brought on to help them with developing their product and scaling their team.",
+        "Helped with Fetchr with developing their auth, permissioning, and order management services. I built their stylist facing dashboard with Next.js, and integrated a variety of features with their React Native app.",
       image: "/fetchr.jpeg",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
