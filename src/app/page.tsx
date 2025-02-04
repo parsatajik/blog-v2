@@ -69,7 +69,7 @@ export default function Page() {
                 badges={work.badges}
                 period={`${work.start} - ${work.end ?? "Present"}`}
                 description={work.description}
-                needsMarkdown={work.needsMarkdown ?? false}
+                needsMarkdown={work.needsMarkdown}
               />
             </BlurFade>
           ))}
@@ -165,8 +165,8 @@ export default function Page() {
                   I help startups ship 🔥
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I help startups ship products faster. I've been fortunate to
-                  be a part of a few startups and have learned a lot from the
+                  I help startups ship products faster. I&apos;ve been fortunate
+                  to be a part of a few startups and have learned a lot from the
                   experience.
                 </p>
               </div>
