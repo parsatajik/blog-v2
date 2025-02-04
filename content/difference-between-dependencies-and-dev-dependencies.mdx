@@ -1,0 +1,24 @@
+---
+title: "dependencies vs devDependencies in package.json"
+publishedAt: "2025-01-04"
+summary: "I've been building js projects for a few years now and I still got this wrong."
+---
+
+This post is pretty quick but I wanted to write about when you're supposed to use dependencies vs dev dependencies for installing packages.
+
+In Node.js projects, the `package.json` file typically has two sections for listing packages your project uses: `dependencies` and `devDependencies`. Although both sections declare package requirements, they serve different purposes:
+
+1. dependencies
+
+- These are packages required at runtime for your application to function.
+- When you deploy your project to production or run `npm install --production`, only these packages (and their transitive dependencies) are installed.
+- Example: a web application using express would list express in dependencies because it&apos;s needed when the app is running.
+
+2. devDependencies
+
+- These are packages only needed during development—for tasks like testing, building, linting, or other development workflows.
+- They are not required at runtime in production.
+- When you install with `npm install --production` (or if `NODE_ENV=production` is set), these packages are not installed.
+- Example: a testing framework such as jest or a code linter like eslint would live under devDependencies, since these tools are only used while developing.
+
+In summary, anything your app needs to run in production belongs in dependencies, while anything you only need to develop and test your app belongs in devDependencies.
