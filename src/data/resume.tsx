@@ -95,7 +95,7 @@ export const DATA = {
       start: "Feb 2022",
       end: "Present",
       description:
-        "Founded [Bloor Software Inc.](https://bloorsoft.com) a boutique software consulting studio with a focus on web development. Lead and recruited teams of developers and designers in order to satisfy the needs of our clients. Networked and negotiated with various potential customers to speed up Bloorsoft’s growth",
+        "Founded Bloor Software Inc. a boutique software consulting studio with a focus on web development. Lead and recruited teams of developers and designers in order to satisfy the needs of our clients. Networked and negotiated with various potential customers to speed up Bloorsoft’s growth",
       needsMarkdown: false,
     },
     {
@@ -121,7 +121,7 @@ export const DATA = {
       start: "May 2021",
       end: "May 2022",
       description:
-        "Developed [Artie](https://www.rbcwealthmanagement.com/en-ca/royal-trust/executor-help), a tool for facilitating executors with estate management. Implemented an internal application for the Royal Bank of Canada to help manage high-value investment clients using Angular, GraphQL, and MongoDB.",
+        "Developed Artie, a tool for facilitating executors with estate management. Implemented an internal application for the Royal Bank of Canada to help manage high-value investment clients using Angular, GraphQL, and MongoDB.",
       needsMarkdown: false,
     },
     {
@@ -288,8 +288,8 @@ export const DATA = {
       video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
+      title: "Affirm Vision",
+      href: "",
       dates: "April 2023 - March 2024",
       active: true,
       description:
@@ -307,9 +307,9 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
+          type: "Github",
+          href: "https://github.com/parsatajik/ar-shopping",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
@@ -323,10 +323,23 @@ export const DATA = {
       dates: "Jan 2025 - Feb 2025",
       location: "San Francisco, CA",
       description:
-        "Helped with Fetchr with developing their auth, permissioning, and order management services. I built their stylist facing dashboard with Next.js, and integrated a variety of features with their React Native app.",
+        "Helped Fetchr with developing their auth, permissioning, and order management services. I built their stylist facing dashboard with Next.js, and integrated a variety of features with their React Native app.",
       image: "/fetchr.jpeg",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+      links: [
+        {
+          title: "Website",
+          href: "https://fetchr.so",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      vcs: [
+        {
+          title: "Y Combinator",
+          href: "https://ycombinator.com",
+          icon: <Icons.money className="size-3" />,
+        },
+      ],
     },
     {
       title: "Streamline Climate",
@@ -336,7 +349,25 @@ export const DATA = {
         "Nexavision is a startup that is building a platform for creating and managing AI agents. I was brought on to help them with developing their product and scaling their team.",
       image: "/streamlineclimate.jpeg",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+      links: [
+        {
+          title: "Website",
+          href: "https://streamlineclimate.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      vcs: [
+        {
+          title: "PearVC",
+          href: "https://pearvc.com",
+          icon: <Icons.money className="size-3" />,
+        },
+        {
+          title: "Y Combinator",
+          href: "https://ycombinator.com",
+          icon: <Icons.money className="size-3" />,
+        },
+      ],
     },
     {
       title: "Tuuli",
@@ -346,7 +377,20 @@ export const DATA = {
         "Tuuli is a startup that is building a platform for creating and managing AI agents. I was brought on to help them with developing their product and scaling their team.",
       image: "/tuuli.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+      links: [
+        {
+          title: "Website",
+          href: "https://www.trytuuli.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      vcs: [
+        {
+          title: "Next Canada",
+          href: "https://nextcanada.com",
+          icon: <Icons.money className="size-3" />,
+        },
+      ],
     },
     {
       title: "Nexavision",
@@ -355,28 +399,67 @@ export const DATA = {
       description:
         "Nexavision is a startup that is building a platform for creating and managing AI agents. I was brought on to help them with developing their product and scaling their team.",
       image: "/nexa.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+      // mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [
+        {
+          title: "Website",
+          href: "https://www.nexaodds.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      vcs: [
+        {
+          title: "Founders Inc.",
+          href: "https://founders.inc/",
+          icon: <Icons.money className="size-3" />,
+        },
+      ],
     },
     {
       title: "BrandVM",
-      dates: "Oct 2023 - Jan 2024",
+      dates: "Oct 2023 - Present",
       location: "Toronto, Ontario",
       description:
-        "After my collaboration with the TeleVU team, they brought me back as an independent contractor to help them with developing a variety of applications",
+        "I've collaborated with BrandVM (one of best web design agencies in Canada) on various projects. I handle architecting and developing complex applications that require custom implementations.", 
       image: "/brandvm.jpeg",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+      links: [
+        {
+          title: "Website",
+          href: "https://www.brandvm.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      vcs: [
+        {
+          title: "Bootstrapped",
+          href: "",
+          icon: <Icons.money className="size-3" />,
+        },
+      ],
     },
     {
       title: "TeleVU Innovation",
       dates: "Nov 2022 - Dec 2023",
       location: "Toronto, Ontario",
       description:
-        "After my collaboration with the TeleVU team, they brought me back as an independent contractor to help them with developing a variety of applications",
+        "Built everything from a chat service to a video streaming platform, and a react native library for data syncing with an at home health monitoring device through BLE.",
       image: "/televu.webp",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+      links: [
+        {
+          title: "Website",
+          href: "https://www.televu.ca/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      vcs: [
+        {
+          title: "Bootstrapped",
+          href: "",
+          icon: <Icons.money className="size-3" />,
+        },
+      ],
     },
   ],
   hackathons: [

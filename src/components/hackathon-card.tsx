@@ -13,6 +13,11 @@ interface Props {
     title: string;
     href: string;
   }[];
+  vcs?: readonly {
+    icon: React.ReactNode;
+    title: string;
+    href: string;
+  }[];
 }
 
 export function HackathonCard({
@@ -22,6 +27,7 @@ export function HackathonCard({
   location,
   image,
   links,
+  vcs,
 }: Props) {
   return (
     <li className="relative ml-10 py-4">
@@ -45,6 +51,23 @@ export function HackathonCard({
           </span>
         )}
       </div>
+      {vcs && vcs.length > 0 && (
+        <div className="mt-2 flex flex-row flex-wrap items-start gap-2">
+          {vcs?.map((vc, idx) => (
+            <Link href={vc.href} key={idx}>
+              <Badge
+                key={idx}
+                title={vc.title}
+                variant="secondary"
+                className="flex gap-2"
+              >
+                {vc.icon}
+                {vc.title}
+              </Badge>
+            </Link>
+          ))}
+        </div>
+      )}
       {links && links.length > 0 && (
         <div className="mt-2 flex flex-row flex-wrap items-start gap-2">
           {links?.map((link, idx) => (
