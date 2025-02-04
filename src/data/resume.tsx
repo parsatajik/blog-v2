@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software engineer and entrepreneur. I love building things and helping people. Trying to be more active on Twitter.",
   summary:
-    "I started tinkering with BASIC when I was 10 years old. Not gonna lie, I kined sucked at it but it was very intriguing for me. Now, almost 15 years later, I've built a variety of software products, participated in many programming competitions and hackathons, and worked at big tech & startup companies. I even started my own software studio called [Bloorsoft](https://bloorsoft.com) 3 years ago. After all this time, I'm still learning every day... Grinding hard for a better future for myself, my family, and the world.",
+    "I started tinkering with BASIC when I was 10 years old. Not gonna lie, I kinda sucked at it but it was very intriguing for me. Now, almost 15 years later, I've built a variety of software products, participated in many programming competitions & hackathons, and worked at big tech & startup companies. I even started my own software studio called [Bloorsoft](https://bloorsoft.com) 3 years ago. After all this time, I'm still learning every day... Grinding hard for a better future for myself, my family, and the world.",
   avatarUrl: "/me2.JPG",
   skills: [
     "React",
