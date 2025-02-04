@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    domains: ['pub-0c2e72b44c3040afbe4c0fe25e97d31c.r2.dev'],
+  },
   async redirects() {
     return [
       {

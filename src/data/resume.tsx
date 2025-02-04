@@ -37,27 +37,25 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/parsa-github",
+        url: "https://github.com/parsatajik",
         icon: Icons.github,
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/parsa-linkedin",
+        url: "https://www.linkedin.com/in/tajikparsa/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/parsa-x",
+        url: "https://x.com/ParsaTajik",
         icon: Icons.x,
-
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/parsa-youtube",
+        url: "https://www.youtube.com/@_parsat",
         icon: Icons.youtube,
         navbar: true,
       },
@@ -65,7 +63,6 @@ export const DATA = {
         name: "Send Email",
         url: "mailto:parsa.tajik@bloorsoft.com",
         icon: Icons.email,
-
         navbar: false,
       },
     },
@@ -199,30 +196,29 @@ export const DATA = {
     {
       title: "Engager ",
       href: "https://engager.bloorsoft.com",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "March 2024 - Sept 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Engager was made as an experiment to see if we could grow our software studio with content marketing.",
       technologies: [
         "Next.js",
         "Typescript",
         "PostgreSQL",
-        "Prisma",
+        "Supabase Auth",
         "TailwindCSS",
         "Stripe",
         "Shadcn UI",
-        "Magic UI",
+        "Vercel AI SDK",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://engager.bloorsoft.com",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      video: "https://pub-0c2e72b44c3040afbe4c0fe25e97d31c.r2.dev/engager.mp4",
     },
     {
       title: "Artefice",
@@ -230,7 +226,7 @@ export const DATA = {
       dates: "May 2023 - September 2023",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        `Artefice was an AI-powered fashion brand that I started in 2022-2023. The project was born from a late-night conversation with friends: "how cool would it be if we had custom t-shirts of a cow that's getting high!".`,
       technologies: [
         "React",
         "JavaScript",
@@ -242,68 +238,59 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://artefice.ai",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/parsatajik/stealth-dream",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "https://pub-0c2e72b44c3040afbe4c0fe25e97d31c.r2.dev/artefice.mp4",
     },
     {
       title: "SuperHuman++",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      href: "",
+      dates: "Jan 2025 - Current",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "SuperHuman like email client with an embedded personal AI assistant.",
       technologies: [
         "Next.js",
         "Typescript",
         "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
         "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Gmail API",
+        "Vercel AI SDK",
       ],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://shpp.vercel.app/",
           icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "https://pub-0c2e72b44c3040afbe4c0fe25e97d31c.r2.dev/shpp.mp4",
     },
     {
       title: "Affirm Vision",
       href: "",
-      dates: "April 2023 - March 2024",
+      dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "This application uses OpenAI's GPT-4 Vision models to identify products in an image or video feed and finds them on Affirm's merchant websites.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "React",
+        "JavaScript",
+        "Docker",
+        "Python",
+        "Custom scrapers",
         "TailwindCSS",
         "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
       ],
       links: [
         {
@@ -312,9 +299,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      image: "https://pub-0c2e72b44c3040afbe4c0fe25e97d31c.r2.dev/Screenshot%202025-02-04%20at%202.36.39%E2%80%AFAM.png",
+      video: "",
     },
   ],
   startups: [
@@ -343,10 +329,10 @@ export const DATA = {
     },
     {
       title: "Streamline Climate",
-      dates: "Feb 2024 - June 2024",
+      dates: "Mar 2024 - Nov 2024",
       location: "San Francisco, CA",
       description:
-        "Nexavision is a startup that is building a platform for creating and managing AI agents. I was brought on to help them with developing their product and scaling their team.",
+        "Helped Streamline develop a full-fledged MS Word Add-In with the key features of their main app. Also integrated their next.js app with MS OneDrive so they can close a deal with Rivian!",
       image: "/streamlineclimate.jpeg",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [
@@ -374,7 +360,7 @@ export const DATA = {
       dates: "March 2024 - May 2024",
       location: "Toronto, ON",
       description:
-        "Tuuli is a startup that is building a platform for creating and managing AI agents. I was brought on to help them with developing their product and scaling their team.",
+        "Tuuli came to me with their core idea and proprietary algorithms. I had ~6 weeks to develop their application from scratch. We successfully launched their next.js app on time which allowed them to secure a big client and extra funding.",
       image: "/tuuli.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [
@@ -397,7 +383,7 @@ export const DATA = {
       dates: "Feb 2024 - June 2024",
       location: "San Francisco, CA",
       description:
-        "Nexavision is a startup that is building a platform for creating and managing AI agents. I was brought on to help them with developing their product and scaling their team.",
+        "I developed a complete web app with auth, payment, and custom features on top of Nexa's database of basketball data. After the first launch, I helped their team with adding seasonal features for the WNBA.",
       image: "/nexa.png",
       // mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [
@@ -420,7 +406,7 @@ export const DATA = {
       dates: "Oct 2023 - Present",
       location: "Toronto, Ontario",
       description:
-        "I've collaborated with BrandVM (one of best web design agencies in Canada) on various projects. I handle architecting and developing complex applications that require custom implementations.", 
+        "I've collaborated with BrandVM (one of best web design agencies in Canada) on various projects. I handle architecting and developing complex applications that require custom implementations.",
       image: "/brandvm.jpeg",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [
