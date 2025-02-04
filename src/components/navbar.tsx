@@ -63,7 +63,9 @@ export default function Navbar() {
         <DockIcon>
           <Tooltip>
             <TooltipTrigger asChild>
-              <ModeToggle />
+              <div className="pointer-events-auto">
+                <ModeToggle />
+              </div>
             </TooltipTrigger>
             <TooltipContent>
               <p>Theme</p>

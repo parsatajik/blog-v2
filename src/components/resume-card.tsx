@@ -103,13 +103,7 @@ export const ResumeCard = ({
               }}
               className="mt-2 text-xs sm:text-sm"
             >
-              {needsMarkdown ? (
-                <Markdown className="prose text-black max-w-full text-pretty font-sans text-sm dark:prose-invert dark:text-white">
-                  {description}
-                </Markdown>
-              ) : (
-                description
-              )}
+              {description}
             </motion.div>
           )}
         </div>

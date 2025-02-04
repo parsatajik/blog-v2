@@ -32,8 +32,8 @@ export const DATA = {
     { href: "/posts", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "parsa.tajik@bloorsoft.com",
+    tel: "+1 647 403 1747",
     social: {
       GitHub: {
         name: "GitHub",
@@ -96,7 +96,7 @@ export const DATA = {
       end: "Present",
       description:
         "Founded [Bloor Software Inc.](https://bloorsoft.com) a boutique software consulting studio with a focus on web development. Lead and recruited teams of developers and designers in order to satisfy the needs of our clients. Networked and negotiated with various potential customers to speed up Bloorsoft’s growth",
-      needsMarkdown: true,
+      needsMarkdown: false,
     },
     {
       company: "Affirm",
@@ -122,7 +122,7 @@ export const DATA = {
       end: "May 2022",
       description:
         "Developed [Artie](https://www.rbcwealthmanagement.com/en-ca/royal-trust/executor-help), a tool for facilitating executors with estate management. Implemented an internal application for the Royal Bank of Canada to help manage high-value investment clients using Angular, GraphQL, and MongoDB.",
-      needsMarkdown: true,
+      needsMarkdown: false,
     },
     {
       company: "TeleVU Innovation",
