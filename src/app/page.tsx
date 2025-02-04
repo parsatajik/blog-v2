@@ -165,9 +165,8 @@ export default function Page() {
                   I help startups ship 🔥
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I help startups ship products faster. I&apos;ve been fortunate
-                  to be a part of a few startups and have learned a lot from the
-                  experience.
+                  I&apos;ve been fortunate to be a part of the early days of a few startups and
+                  have learned a lot from every single experience.
                 </p>
               </div>
             </div>
