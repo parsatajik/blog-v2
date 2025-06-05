@@ -8,10 +8,10 @@ export const DATA = {
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software engineer and entrepreneur. I love building things and helping people. Trying to be more active on Twitter.",
+    "Software engineer and entrepreneur. I love building things and helping people.",
   summary:
     "I started tinkering with BASIC when I was 10 years old. Not gonna lie, I kinda sucked at it but it was very intriguing for me. Now, almost 15 years later, I've built a variety of software products, participated in many programming competitions & hackathons, and worked at big tech & startup companies. I even started my own software studio called [Bloorsoft](https://bloorsoft.com) 3 years ago. After all this time, I'm still learning every day... Grinding hard for a better future for myself, my family, and the world.",
-  avatarUrl: "/me2.JPG",
+  avatarUrl: "/parsa.png",
   skills: [
     "React",
     "React Native (hate apple and their random rules)",
@@ -69,6 +69,19 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "Rush",
+      href: "https://rushoptimize.com",
+      badges: [],
+      location: "San Francisco, CA",
+      title: "Founder & CEO",
+      logoUrl: "/rush.png",
+      start: "Mar 2024",
+      end: "June 2025",
+      description:
+        "Built a platform for tracking and optimizing visibility performance in answer engines like ChatGPT, Gemini, and Claude.",
+      needsMarkdown: false,
+    },
     {
       company: "Affirm",
       href: "https://affirm.com",
@@ -194,7 +207,7 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Engager ",
+      title: "Engager",
       href: "https://engager.bloorsoft.com",
       dates: "March 2024 - Sept 2024",
       active: true,
@@ -225,8 +238,7 @@ export const DATA = {
       href: "https://artefice.ai",
       dates: "May 2023 - September 2023",
       active: true,
-      description:
-        `Artefice was an AI-powered fashion brand that I started in 2022-2023. The project was born from a late-night conversation with friends: "how cool would it be if we had custom t-shirts of a cow that's getting high!".`,
+      description: `Artefice was an AI-powered fashion brand that I started in 2022-2023. The project was born from a late-night conversation with friends: "how cool would it be if we had custom t-shirts of a cow that's getting high!".`,
       technologies: [
         "React",
         "JavaScript",
@@ -299,11 +311,35 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://pub-0c2e72b44c3040afbe4c0fe25e97d31c.r2.dev/Screenshot%202025-02-04%20at%202.36.39%E2%80%AFAM.png",
+      image:
+        "https://pub-0c2e72b44c3040afbe4c0fe25e97d31c.r2.dev/Screenshot%202025-02-04%20at%202.36.39%E2%80%AFAM.png",
       video: "",
     },
   ],
   startups: [
+    {
+      title: "Chief",
+      dates: "Feb 2025 - Mar 2025",
+      location: "San Francisco, CA",
+      description:
+        "Helped Chief with developing an experimentation platform to rapidly test different features internally.",
+      image: "/rush.jpeg",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [
+        {
+          title: "Founder",
+          href: "https://x.com/jb_bakst",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      vcs: [
+        {
+          title: "Howie Liu (CEO @ Airtable)",
+          href: "https://www.linkedin.com/in/howieliu",
+          icon: <Icons.money className="size-3" />,
+        },
+      ],
+    },
     {
       title: "Fetchr",
       dates: "Jan 2025 - Feb 2025",
