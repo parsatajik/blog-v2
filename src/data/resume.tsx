@@ -323,7 +323,7 @@ export const DATA = {
       location: "San Francisco, CA",
       description:
         "Helped Chief with developing an experimentation platform to rapidly test different features internally.",
-      image: "/rush.jpeg",
+      image: "",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [
         {
