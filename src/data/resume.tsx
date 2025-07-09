@@ -69,19 +69,19 @@ export const DATA = {
   },
 
   work: [
-    {
-      company: "Rush",
-      href: "https://rushoptimize.com",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Founder & CEO",
-      logoUrl: "/rush.png",
-      start: "Mar 2024",
-      end: "June 2025",
-      description:
-        "Built a platform for tracking and optimizing visibility performance in answer engines like ChatGPT, Gemini, and Claude.",
-      needsMarkdown: false,
-    },
+    // {
+    //   company: "Rush",
+    //   href: "https://rushoptimize.com",
+    //   badges: [],
+    //   location: "San Francisco, CA",
+    //   title: "Founder & CEO",
+    //   logoUrl: "/rush.png",
+    //   start: "Mar 2024",
+    //   end: "June 2025",
+    //   description:
+    //     "Built a platform for tracking and optimizing visibility performance in answer engines like ChatGPT, Gemini, and Claude.",
+    //   needsMarkdown: false,
+    // },
     {
       company: "Affirm",
       href: "https://affirm.com",
