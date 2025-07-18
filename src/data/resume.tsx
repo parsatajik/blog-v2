@@ -235,7 +235,7 @@ export const DATA = {
     },
     {
       title: "Artefice",
-      href: "https://artefice.ai",
+      href: "https://artefice.vercel.app/",
       dates: "May 2023 - September 2023",
       active: true,
       description: `Artefice was an AI-powered fashion brand that I started in 2022-2023. The project was born from a late-night conversation with friends: "how cool would it be if we had custom t-shirts of a cow that's getting high!".`,
