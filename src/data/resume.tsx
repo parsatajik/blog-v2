@@ -250,7 +250,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://artefice.ai",
+          href: "https://artefice.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
