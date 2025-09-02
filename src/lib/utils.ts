@@ -35,3 +35,8 @@ export function formatDate(date: string) {
     return `${fullDate} (${yearsAgo}y ago)`;
   }
 }
+
+export function formatBaseColor(color: string) {
+  if (!color) return "";
+  return `bg-${color}-500`
+}

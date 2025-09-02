@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, Sprout } from "lucide-react";
 
 export const DATA = {
   name: "Parsa Tajik",
@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software engineer and entrepreneur. I love building things and helping people.",
   summary:
-    "I started tinkering with BASIC when I was 10 years old. Not gonna lie, I kinda sucked at it but it was very intriguing for me. Now, almost 15 years later, I've built a variety of software products, participated in many programming competitions & hackathons, and worked at big tech & startup companies. I even started my own software studio called [Bloorsoft](https://bloorsoft.com) 3 years ago. After all this time, I'm still learning every day... Grinding hard for a better future for myself, my family, and the world.",
+    "I started tinkering with BASIC when I was 10 years old. Not gonna lie, I kinda sucked at it but it was very intriguing for me. Now, almost 15 years later, I've built a variety of software products, participated in many programming competitions & hackathons, and worked at big tech & startup companies. I ran [Bloorsoft](https://bloorsoft.com), a boutique startup focused software studio, for 3 years and later founded and sold Rush. ",
   avatarUrl: "/parsa.webp",
   skills: [
     "React",
@@ -30,6 +30,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/posts", icon: NotebookIcon, label: "Blog" },
+    { href: "/progress-tracker", icon: Sprout, label: "Progress Tracker" },
   ],
   contact: {
     email: "parsa.tajik@bloorsoft.com",
@@ -69,25 +70,12 @@ export const DATA = {
   },
 
   work: [
-    // {
-    //   company: "Rush",
-    //   href: "https://rushoptimize.com",
-    //   badges: [],
-    //   location: "San Francisco, CA",
-    //   title: "Founder & CEO",
-    //   logoUrl: "/rush.png",
-    //   start: "Mar 2024",
-    //   end: "June 2025",
-    //   description:
-    //     "Built a platform for tracking and optimizing visibility performance in answer engines like ChatGPT, Gemini, and Claude.",
-    //   needsMarkdown: false,
-    // },
     {
       company: "Affirm",
       href: "https://affirm.com",
       badges: [],
       location: "San Francisco, CA",
-      title: "Software Engineer",
+      title: "Software Engineer II",
       logoUrl: "/affirm.jpg",
       start: "Jan 2024",
       end: "Present",
@@ -96,11 +84,24 @@ export const DATA = {
       needsMarkdown: false,
     },
     {
+      company: "Rush",
+      href: "https://rushoptimize.com",
+      badges: [],
+      location: "San Francisco, CA",
+      title: "Co-Founder & CEO",
+      logoUrl: "/rush.png",
+      start: "Mar 2024",
+      end: "July 2025",
+      description:
+        "Built a platform for tracking and optimizing visibility performance in answer engines like ChatGPT, Gemini, and Claude.",
+      needsMarkdown: false,
+    },
+    {
       company: "Bloorsoft",
       badges: [],
       href: "https://bloorsoft.com",
       location: "Toronto, ON",
-      title: "Founder & CEO",
+      title: "Co-Founder & CEO",
       logoUrl: "/bloorsoft.png",
       start: "Feb 2022",
       end: "Present",
