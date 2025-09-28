@@ -71,6 +71,18 @@ export const DATA = {
 
   work: [
     {
+      company: "xAI",
+      href: "https://x.ai",
+      badges: [],
+      location: "San Francisco, CA",
+      title: "Member of Technical Staff",
+      logoUrl: "/xai.png",
+      start: "Oct 2025",
+      end: "Present",
+      description: "Product",
+      needsMarkdown: false,
+    },
+    {
       company: "Affirm",
       href: "https://affirm.com",
       badges: [],
@@ -78,9 +90,9 @@ export const DATA = {
       title: "Software Engineer II",
       logoUrl: "/affirm.jpg",
       start: "Jan 2024",
-      end: "Present",
+      end: "Sept 2025",
       description:
-        "Migrated all of Affirms infrastructure to Redis engine v7.1 and RedisPy v5, directly contributing to availability and performance optimizations across our whole stack.",
+        "Redesigned the cross-region Redis caching layer for 50+ micro-services (Python + redis-py 5, Elasticache on r7g), cutting p95 latency 18% and fail-over error rate. Worked cross teams to develop a Kubernetes deployment pipeline used by 100+ services company-wide. Won the 2024 annual company hackathon by building an augmented reality shopping app!",
       needsMarkdown: false,
     },
     {
